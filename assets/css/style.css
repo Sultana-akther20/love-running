@@ -47,10 +47,20 @@ h1 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+
+}
 /*main content*/
 main {
     background-color: blueviolet;
     flex: 1 0 auto;
+    margin-top: 45px;
    
 
 }
