@@ -81,6 +81,30 @@ main {
 
 }
 /*footer*/
-footer {
-    background-color: brown;
+#social-network {
+    text-align: center;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+#social-network i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+
+}
+
+/*media qurey: tablet and larger (768px and up)*/
+@media screen and (min-width: 786px)  {
+   /*header*/
+    nav{
+    display: block;
+    position:relative;
+    box-shadow: none;
+    width: fit-content;
+    padding: 1rem;
+   } 
+    
+}
+
