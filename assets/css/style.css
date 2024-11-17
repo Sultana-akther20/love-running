@@ -63,7 +63,7 @@ nav {
 
 }
 #nav-toggle {
-    display: block;
+    display: none;
 }
 .nav-toggle-label {
     font-size: 2rem;
@@ -85,7 +85,9 @@ main {
     display:flex;
     justify-content: space-evenly;
     list-style-type: none;
+    
 }
+
 #social-network i {
     font-size: 160%;
     padding: 5%;
