@@ -74,9 +74,13 @@ display: block;
 }
 /*main content*/
 main {
-    background-color: blueviolet;
     flex: 1 0 auto;
     margin-top: 45px;
+   }
+   #hero{
+   height:600px;
+   width: 100%;
+   background-color: green;
    }
    /*footer*/
 #social-network {
