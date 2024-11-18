@@ -76,6 +76,10 @@ main {
     flex: 1 0 auto;
     margin-top: 45px;
    }
+   #cover-text{
+    width: 300px;
+    right: 50px;
+   }
    #hero{
    height:600px;
    width: 100%;
@@ -97,7 +101,7 @@ main {
    }
    #
    /*footer*/
-#social-network {
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display:flex;
