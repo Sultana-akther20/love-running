@@ -129,7 +129,7 @@ main {
     padding-right: 1rem;
    } 
     
-}
+
 #menu{
     display: flex;
 }
@@ -147,7 +147,14 @@ main {
 /*main content*/
 main{
     /*push main content down to accomodate larger header*/
-    margin-top: 79px;
+ 
+   margin-top: 79px;
+}
+/*hero*/
+#cover-text{
+width:300px;
+right: 50px;
+}
 }
 
 @media screen and (min-width: 992px) {
