@@ -100,6 +100,27 @@ main {
     color: #ffffff;
    }
    
+   #reasons{
+    width: 90%;
+margin: 20px auto;
+   }
+   #reasons  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280px;
+
+   }
+   #benefits-physical>div, #benefits-mental>div{
+margin-bottom: 20px;
+line-height: 20px;
+   }
+   benefits > p {
+    margin: 0 20px;
+   }
+   hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+   }
    /*footer*/
 #social-networks {
     text-align: center;
