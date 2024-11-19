@@ -181,7 +181,13 @@ border: 2ps solid white;
     color: #3a3a3a;
 
 }
-
+/*media query for large or landscape phones()576px and up*/
+@media screen and (min-width: 576px){
+    #photoes{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /*media qurey: tablet and larger (768px and up)*/
 @media screen and (min-width: 786px)  {
@@ -233,12 +239,19 @@ right: 50px;
     text-align: end;
     align-self: flex-end;
 }
+/*gallery*/
+#photoes {
+    column-count: 3;
+}
 
 }
 
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+    #photoes {
+        column-count: 4;
     }
 }
 /*media quiry for desktop (min-width:1200px)*/
