@@ -158,6 +158,13 @@ border: 2ps solid white;
    #times h3 {
     color: #fafafa;
    }
+   #photoes img{
+    width: 100%;
+    line-height: 1em;
+   }
+   #photoes{
+    line-height: 0;
+   }
    /*footer*/
 #social-networks {
     text-align: center;
