@@ -136,6 +136,20 @@ line-height: 20px;
     align-items: center;
     justify-content: center;
    }
+   #times{
+    background: url(../image/dublin-city.webp) no-repeat center/cover;
+     display: flex;
+     flex-wrap: wrap;
+   }
+   #times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+   }
+   #timez h3 {
+    color: #fafafa;
+   }
    /*footer*/
 #social-networks {
     text-align: center;
