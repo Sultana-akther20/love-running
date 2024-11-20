@@ -197,7 +197,7 @@ line-height: 20px;
    flex-basis: 200px;
    flex-grow: 1;
 /*create a grid of meet up time over the backgroun-image*/
-border: 2ps solid white;
+border: 2px solid white;
 }
    #times h3 {
     color: #fafafa;
